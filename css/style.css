@@ -40,6 +40,7 @@ body{
     flex-wrap: wrap;
     max-width: 57.5rem;
     margin: auto;
+    margin-top: 10px;
 }
 
 #area-postagens{
@@ -76,14 +77,38 @@ body{
 }
 main a{
     text-decoration: none;
-    color: gray;
+    color: #f7b600;
 }
 .navegacao-lateral a{
     display: block;
     color: #ffbb00;
-    font-weight: bold;
-    margin-top: 10px;
 }
 .navegacao-lateral a:hover {
     color: #ffbb0070;
+}
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+}
+#conteudo-lateral2{
+    margin-top: 10px;
+}
+.conteudo-lateral-titulo{
+    background-color: #ccc;
+    color: #565656;
+    padding: 5px;
+}
+.texto-postagem-lateral{
+    font-size: 10px;
+}
+.texto-postagem-lateral > a{
+    color: #ffbb00;
+}
+footer{
+    width: 920px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ccc;
+    margin: auto;
+    margin-top: 10px;
 }
